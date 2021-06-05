@@ -14,7 +14,8 @@ Given a list of sources, this TaintTracker tool produces algebric leak signature
 
 ### Run
   First git clone the project.
-  Then simply run the run.sh script with the apk file or apk files directory (to run as a batch) as the argument. The Apps folder conntains some sample apps (Table 9 apps of the paper).
+  Then simply run the run.sh script with the apk file or apk files directory (to run as a batch) as the argument. This google drive link conntains some sample apps (Table 9 apps of the paper).
+https://drive.google.com/drive/folders/1KD0ORh2ZnGQbSMAXrQEjgDpKL2raVIEr?usp=sharing
   Command:
   
     ./run.sh <apk_file> or <apk_files directory> 
