@@ -24,7 +24,7 @@ https://zenodo.org/record/4902866#.YLsZy5NKjuU
   
     ./run.sh <apk_file> or <apk_files directory> 
     Example:
-    ./run.sh com.dunkinbrands.otgo.apk
+    ./run.sh com.zc.android.apk
 
     (for Windows OS)
     bash run.sh <apk_file> or <apk_files directory>
