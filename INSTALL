@@ -5,7 +5,7 @@ Command:
 
 ./run.sh <apk_file> or <apk_files directory> 
 Example:
-./run.sh Apps/com.dunkinbrands.otgo.apk
+./run.sh Table9Apks/com.dunkinbrands.otgo.apk
 
 Output: leak signatures generated in a .txt file in same location as run.sh script
 
