@@ -1,0 +1,8 @@
+IMEI +  (Third Party Leak)
+AndroidID +  (Own Code Leak)
+AndroidID +  (Third Party Leak)
++ AndroidID (Third Party Leak)
+Mac +  (Third Party Leak)
+h(Mac) +  (Third Party Leak)
+GUID +  (Third Party Leak)
+GUID +  (Own Code Leak)

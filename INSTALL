@@ -1,0 +1,35 @@
+Simply run the run.sh script with the apk file or apk files directory (to run as a batch) as the argument.
+We have provided some apps (27) in the Apps folder to run. These apps are mentioned in table 9 of the paper.
+
+Command:
+
+./run.sh <apk_file> or <apk_files directory> 
+Example:
+./run.sh Apps/com.dunkinbrands.otgo.apk
+
+Output: leak signatures generated in a .txt file in same location as run.sh script
+
+Example: Output for com.dunkinbrands.otgo.apk
+
+IMEI +  (Third Party Leak)
++ IMEI  + AndroidID (Third Party Leak)
+h(IMEI) +  (Third Party Leak)
+( AndroidID ^ h(SerialNo) ^ h(IMEI) ) + GUID (Third Party Leak)
++ GUID (Third Party Leak)
+AndroidID +  (Third Party Leak)
+( SerialNo ^ AndroidID ) + GUID (Own Code Leak)
++ AndroidID (Third Party Leak)
+h(SerialNo) +  (Third Party Leak)
+SerialNo +  (Third Party Leak)
+Mac +  (Own Code Leak)
+Adv +  (Third Party Leak)
+GUID +  (Third Party Leak)
+GUID +  (Own Code Leak)
+
+
+
+These are the leak signatures generated.
+Each line of the output represents a unique leak signature for the app. 
+For example 
+( AndroidID ^ h(SerialNo) ^ h(IMEI) ) + GUID (Third Party Leak)
+means either a combination of hashed SerialNo, hashed IMEI and raw AndroidID or only GUID is leaked. This leak is third party leak. 

@@ -1,0 +1,5 @@
+AndroidID +  (Own Code Leak)
+AndroidID +  (Third Party Leak)
+Mac +  (Own Code Leak)
+GUID +  (Third Party Leak)
+GUID +  (Own Code Leak)

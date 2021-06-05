@@ -1,0 +1,7 @@
+AndroidID +  (Own Code Leak)
+AndroidID +  (Third Party Leak)
++ h(AndroidID)  + SerialNo + h(GUID) (Third Party Leak)
+h(AndroidID) +  (Own Code Leak)
++ AndroidID (Third Party Leak)
+GUID +  (Third Party Leak)
+GUID +  (Own Code Leak)

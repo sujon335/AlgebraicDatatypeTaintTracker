@@ -1,0 +1,4 @@
+Java installed and should be in the path (java 8)
+Python installed and should be in the path (python 3)
+We conducted the experiments on a MacBook Pro (3.5 GHz dual-core Intel Core i7 with 16GB RAM)
+We expect the tool to be run on a workstation with higher memory (preferably 16GB RAM).

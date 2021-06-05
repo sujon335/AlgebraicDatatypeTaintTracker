@@ -1,0 +1,7 @@
+( IMEI ^ AndroidID ^ Mac ) (Own Code Leak)
+AndroidID +  (Third Party Leak)
+AndroidID +  (Own Code Leak)
+Adv +  (Own Code Leak)
+Adv +  (Third Party Leak)
+GUID +  (Own Code Leak)
+GUID +  (Third Party Leak)

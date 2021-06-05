@@ -1,0 +1,7 @@
+Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String; IMEI
+Landroid/content/Context;.getContentResolver AndroidID
+android.os.Build.SERIAL SerialNo
+Landroid/telephony/TelephonyManager;.getSubscriberId():()Ljava/lang/String; IMSI
+Landroid/net/wifi/WifiInfo;.getMacAddress:()Ljava/lang/String; Mac
+Lcom/google/android/gms/ads/identifier/AdvertisingIdClient; Adv
+Ljava/util/UUID;.randomUUID:()Ljava/util/UUID; GUID

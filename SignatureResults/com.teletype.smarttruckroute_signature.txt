@@ -1,0 +1,1 @@
+( h(IMEI) ^ h(Mac) ) (Own Code Leak)

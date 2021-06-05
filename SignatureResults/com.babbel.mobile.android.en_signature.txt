@@ -1,0 +1,6 @@
+( h(AndroidID) ^ h(Mac) ) (Own Code Leak)
+AndroidID +  (Own Code Leak)
+AndroidID +  (Third Party Leak)
+Mac +  (Third Party Leak)
+GUID +  (Own Code Leak)
+GUID +  (Third Party Leak)

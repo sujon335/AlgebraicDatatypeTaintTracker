@@ -1,0 +1,8 @@
+( AndroidID ^ IMEI ) + SerialNo  + GUID (Own Code Leak)
+AndroidID +  (Third Party Leak)
++ AndroidID  + GUID (Third Party Leak)
++ AndroidID  + GUID (Own Code Leak)
+Adv +  (Third Party Leak)
+Adv +  (Own Code Leak)
+GUID +  (Own Code Leak)
+GUID +  (Third Party Leak)

@@ -1,0 +1,6 @@
+AndroidID +  (Own Code Leak)
++ AndroidID  + Adv (Own Code Leak)
++ Adv (Own Code Leak)
+Mac +  (Own Code Leak)
+Adv +  (Own Code Leak)
+GUID +  (Own Code Leak)

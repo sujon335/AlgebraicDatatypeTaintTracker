@@ -1,0 +1,8 @@
+AndroidID +  (Third Party Leak)
+AndroidID +  (Own Code Leak)
+h(SerialNo) +  (Third Party Leak)
+SerialNo +  (Third Party Leak)
+Mac +  (Third Party Leak)
+Adv +  (Own Code Leak)
+GUID +  (Own Code Leak)
+GUID +  (Third Party Leak)
