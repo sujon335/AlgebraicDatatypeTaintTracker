@@ -19,7 +19,7 @@ Given a list of sources, this TaintTracker tool produces algebric leak signature
   
     ./run.sh <apk_file> or <apk_files directory> 
     Example:
-    ./run.sh Apps/com.dunkinbrands.otgo.apk
+    ./run.sh com.dunkinbrands.otgo.apk
 
     (for Windows OS)
     bash run.sh <apk_file> or <apk_files directory>
