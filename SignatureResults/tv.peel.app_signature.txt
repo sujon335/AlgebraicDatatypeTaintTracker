@@ -1,6 +1,7 @@
 IMEI +  (Own Code Leak)
-h(IMEI) +  (Third Party Leak)
+( AndroidID ^ SerialNo ) (Third Party Leak)
 AndroidID +  (Third Party Leak)
+AndroidID +  (Own Code Leak)
 SerialNo +  (Own Code Leak)
 Mac +  (Own Code Leak)
 Adv +  (Third Party Leak)
