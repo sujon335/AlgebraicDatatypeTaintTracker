@@ -1,0 +1,485 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /jimmy/hdd/sr939/FinanceApps/com.nutmeg.app_2018-11-27.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.dexpler.DexFileProvider - Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.03648358 seconds
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 54 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.zendesk.sdk.requests.RequestActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.zendesk.sdk.requests.RequestActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.zendesk.sdk.requests.ViewRequestActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.zendesk.sdk.requests.ViewRequestActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.zendesk.sdk.support.ViewArticleActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.zendesk.sdk.support.ViewArticleActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.zendesk.sdk.power.BatteryStateBroadcastReceiver
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.zendesk.sdk.power.BatteryStateBroadcastReceiver
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.DrawerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.DialogTitle
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ActionMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AlertDialogLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.DialogTitle
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ExpandedMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ContentFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ViewStubCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ViewStubCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.internal.ScrimInsetsFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.internal.ScrimInsetsFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.internal.ScrimInsetsFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.internal.ScrimInsetsFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.zendesk.sdk.support.ArticleVotingView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.FloatingActionButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.internal.BaselineLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.internal.NavigationMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.internal.NavigationMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CheckableImageButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatCheckBox
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.zendesk.sdk.ui.EmailAddressAutoCompleteTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatRadioButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatRadioButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatRadioButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.codetail.widget.RevealFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.codetail.widget.RevealFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.codetail.widget.RevealFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 54 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Could not find a suitable constructor for class com.segment.analytics.Cartographer
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Could not find a suitable constructor for class com.segment.analytics.integrations.Logger
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.segment.analytics.Crypto, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.nutmeg.app.core.utils.Action, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 16 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 54 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.nutmeg.app.core.utils.Action, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.nutmeg.app.core.utils.Action, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 0 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <android.os.Build: java.lang.String SERIAL> -> _SOURCE_
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 8 sources, 488 sinks, and 47 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 17 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /jimmy/hdd/sr939/FinanceApps/com.nutmeg.app_2018-11-27.apk with 8 sources and 488 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.34975261 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 15513 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 9 sources and 99 sinks.
+[FlowDroid Timeout Watcher] WARN soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - Timeout reached, stopping the solvers...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 5547140
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 5541577
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 11616210 forward and 55252437 backward edges solved, processing 95 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 14107 MB
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 592 MB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 1 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] ERROR soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Could not wait for executor termination
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at heros.solver.CountLatch.awaitZero(CountLatch.java:79)
+	at heros.solver.CountingThreadPoolExecutor.awaitCompletion(CountingThreadPoolExecutor.java:86)
+	at soot.jimple.infoflow.solver.executors.InterruptableExecutor.awaitCompletion(InterruptableExecutor.java:82)
+	at soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder.computeTaintPaths(BatchPathBuilder.java:65)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:607)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:239)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1180)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1424)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1359)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1306)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:333)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 2 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 3 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 4 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 5 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 6 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 7 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 8 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 9 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 10 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 11 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 12 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 13 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 14 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 15 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 16 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 17 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 18 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 19 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 2240 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 24 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>($r1, $i0) in method <com.appsee.kc: org.json.JSONObject a(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>($r1, $i0) in method <com.appsee.kc: org.json.JSONObject a(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r1, $r4) in method <com.appsee.kc: org.json.JSONObject a(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r1, $r15) in method <com.appsee.kc: org.json.JSONObject a(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r4, $r1) in method <com.appsee.kc: org.json.JSONObject a(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r8, $r13) in method <com.stripe.android.StripeApiHandler: org.json.JSONObject b(java.util.Map)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = staticinvoke <android.provider.Settings$Secure: java.lang.String getString(android.content.ContentResolver,java.lang.String)>($r3, "android_id") in method <com.stripe.android.StripeNetworkUtils: void a(com.stripe.android.StripeNetworkUtils$UidProvider,android.content.Context,java.util.Map)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = staticinvoke <android.provider.Settings$Secure: java.lang.String getString(android.content.ContentResolver,java.lang.String)>($r1, "android_id") in method <com.stripe.android.TelemetryClientUtil: java.lang.String b(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r1, $r15) in method <com.appsee.kc: org.json.JSONObject a(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>($r3, $i0) in method <com.appsee.wc: void K()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.fc: org.json.JSONObject K(java.lang.String,byte[],int,java.lang.String,java.util.Map)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>($r1, $i0) in method <com.appsee.kc: org.json.JSONObject a(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r1, $r14) in method <com.appsee.kc: org.json.JSONObject a(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r4, $r3) in method <com.appsee.zf: org.json.JSONObject K(org.json.JSONObject)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>($r1, $i0) in method <com.appsee.kc: org.json.JSONObject a(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r1, $r17) in method <com.appsee.kc: org.json.JSONObject a(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r8, $r7) in method <com.stripe.android.StripeApiHandler: org.json.JSONObject b(java.util.Map)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = staticinvoke <android.provider.Settings$Secure: java.lang.String getString(android.content.ContentResolver,java.lang.String)>($r3, "android_id") in method <com.stripe.android.StripeNetworkUtils: void a(com.stripe.android.StripeNetworkUtils$UidProvider,android.content.Context,java.util.Map)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = staticinvoke <android.provider.Settings$Secure: java.lang.String getString(android.content.ContentResolver,java.lang.String)>($r1, "android_id") in method <com.stripe.android.TelemetryClientUtil: java.lang.String b(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r8, $r10) in method <com.stripe.android.StripeApiHandler: org.json.JSONObject b(java.util.Map)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = staticinvoke <android.provider.Settings$Secure: java.lang.String getString(android.content.ContentResolver,java.lang.String)>($r3, "android_id") in method <com.stripe.android.StripeNetworkUtils: void a(com.stripe.android.StripeNetworkUtils$UidProvider,android.content.Context,java.util.Map)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = staticinvoke <android.provider.Settings$Secure: java.lang.String getString(android.content.ContentResolver,java.lang.String)>($r1, "android_id") in method <com.stripe.android.TelemetryClientUtil: java.lang.String b(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r3, $r6) in method <com.appsee.wc: void K()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>($r1, $d0) in method <com.appsee.kc: org.json.JSONObject a(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.appsee.kp: java.lang.String a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 1028 seconds. Maximum memory consumption: 517 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 17 leaks

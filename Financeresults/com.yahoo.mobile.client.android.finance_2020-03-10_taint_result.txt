@@ -1,0 +1,454 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /jimmy/hdd/sr939/FinanceApps/com.yahoo.mobile.client.android.finance_2020-03-10.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.dexpler.DexFileProvider - Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.15939241 seconds
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 136 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.CarouselView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.CaptureExperienceView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.ShareMediaView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.FindPlaneTipView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.presentation.AspectRatioFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.CaptureButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.ArExperienceSceneView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.CaptureButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.datepicker.MaterialCalendarGridView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.LinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.android.a11y.view.AllyChartView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.ArExperienceSceneView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.libs.feedback.UserFeedbackFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.libs.feedback.UserFeedbackFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.CarouselView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.CaptureExperienceView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.ShareMediaView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.FindPlaneTipView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.view.FinanceDrawerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.bottomnavigation.BottomNavigationView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.navigation.NavigationView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.ar.sceneform.SceneView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.floatingactionbutton.FloatingActionButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.CollapsingToolbarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.floatingactionbutton.FloatingActionButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.widget.carousel.ui.view.views.MoreEllipsizedTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.widget.carousel.ui.view.views.MoreEllipsizedTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.widget.carousel.ui.view.views.MoreEllipsizedTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.stream.ui.view.widget.PasteActionEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.CollapsingToolbarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.userprofile.ui.widget.UserProfileHeaderView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.userprofile.ui.widget.NonClickableToolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.stream.ui.view.layout.ImageCommentLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.stream.ui.view.layout.LinkCommentLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.userprofile.ui.widget.UserActivityMessageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.userprofile.ui.widget.UserActivityMessageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.stream.ui.view.widget.SmartTop
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.stream.ui.view.widget.ViewPagerIndicatorGroup
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.stream.ui.view.layout.TextCommentLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.stream.ui.view.layout.TextCommentLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.widget.trendingtags.ui.view.views.TagView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.widget.trendingtags.ui.view.views.TrendingTagsView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.AnimatedChevron
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.ClosedCaptionsControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.FullscreenToggleControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.LiveBadgeControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SeekBarLiveBadgeControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.LoadingControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.MultiAudioControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.MuteControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayPauseControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayTimeControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SeekBarControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SkipControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SkipControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.TimeWatchedControl
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.TotalTimeControl
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.VideoQualityControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.internal.BaselineLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.internal.NavigationMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.internal.NavigationMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.internal.CheckableImageButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.internal.CheckableImageButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.floatingactionbutton.FloatingActionButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.quote.alert.view.ribbon.PriceBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.quote.alert.view.keyboard.PriceKeyboard
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.ErrorHandlingView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class requestFocus
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.CollapsingToolbarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.view.widget.TouchImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.view.widget.CheckableRadioGroup
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.widget.FujiSuperToastProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.share.animatedview.AnimatedView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayTimeControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.AdGroupControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayPauseControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SeekBarControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SkippableAdControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SeekBarControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayPauseControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayTimeControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.FullscreenToggleControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.ClosedCaptionsControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.MultiAudioControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.VideoQualityControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.VideoSurfaceLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SubtitleView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PosterControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayOrbControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.LoadingControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.ErrorHandlingView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.MuteControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.LiveBadgeControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.chart.indicators.InputEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.chart.indicators.InputEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.chart.indicators.InputEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.canvass.widget.carousel.ui.view.views.Carousel
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.core.app.util.view.SparkLineView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.home.view.MarketHeaderRecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.view.widget.PageViewsLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.view.widget.PriceEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.chart.nativo.NativeChartView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.finance.core.app.util.view.SparkLineView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.robinhood.ticker.TickerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.presentation.AspectRatioFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.datepicker.MaterialCalendarGridView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.internal.CheckableImageButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textfield.TextInputEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.AccountListFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.AccountListFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.platform.phoenix.core.SingleLineTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.control.ChromeCastControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.control.FullscreenToggleControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.control.PopoutControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.ar.sceneform.ux.HandMotionView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.ar.sceneform.ArSceneView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.ControlsLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.ControlsLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.ControlsLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.panorama.SMPanoHorizontalScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.panorama.SMTouchPointImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.panorama.SMTouchPointImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.ui.SMPano.SMPanoDeviceIcon
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.ui.SMPano.SMPanoRightIcon
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.ui.SMPano.SMPanoLeftIcon
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.ui.SMPano.SMPanoText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.ui.SMCTA.SMCTAGradientView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.ui.component.SMMuteUnmuteButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.ui.SMCTA.SMCTATextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.panorama.SMPanoScrollBarView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.oath.mobile.ads.sponsoredmoments.ui.component.SMRoundedCornerImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.chip.Chip
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.chip.ChipGroup
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.chip.Chip
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.MaterialToolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.MaterialToolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.MaterialToolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.MaterialToolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textview.MaterialTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textview.MaterialTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textview.MaterialTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textview.MaterialTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.textview.MaterialTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.AdGroupControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.MoreInfoView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayPauseControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SeekBarControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayTimeControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.CaptureButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.CollapsingToolbarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.presentation.AspectRatioFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.control.YMuteUnmuteButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.ryot.arsdk.ui.views.ShareActionView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.android.ExpandableTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.android.CustomRecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.android.fonts.RobotoTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.android.fonts.RobotoTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.presentation.AspectRatioFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.android.fonts.RobotoTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SeekBarControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayPauseControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayTimeControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.ClosedCaptionsControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.MultiAudioControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.extension.YPlayerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.extension.YVideoSurfaceLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SubtitleView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.FullscreenControlsLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.FullscreenControlsLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PosterControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayOrbControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.LoadingControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.control.YErrorControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.LiveBadgeControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.extension.YPlayerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.android.VideoTitleControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.android.VideoPublisherControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.extension.YVideoSurfaceLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.SubtitleView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.ControlsLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.ControlsLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PosterControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.PlayOrbControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.LoadingControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.control.YErrorControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.verizondigitalmedia.mobile.client.android.player.ui.LiveBadgeControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.android.VideoDescriptionControlView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.android.fonts.RobotoTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.cast.CustomMediaRouteButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.cast.CustomMediaRouteButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.android.LiveBadgeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.control.YMuteUnmuteButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.control.YPlayPauseButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.control.YMarkedSeekBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.android.fonts.RobotoTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.cast.CustomMediaRouteButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.YVideoViewImpl
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.ChromeContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.YAdViewImpl
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yahoo.mobile.client.android.yvideosdk.ui.ChromeContainer
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 136 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.adobject.IAdObject, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.views.AdViewBase$AdViewCallback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.video.player.FlurryVideoOverlay$IFlurryVideoOverlayEvents, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class com.flurry.android.impl.ads.video.ads.FullScreenVideoAd
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.views.AdViewBase, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for androidx.fragment.app.FragmentTransition$Callback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.adobject.IAdObject, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.views.AdViewBase$AdViewCallback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.video.player.FlurryVideoOverlay$IFlurryVideoOverlayEvents, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class com.flurry.android.impl.ads.video.ads.FullScreenVideoAd
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.views.AdViewBase, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ContentProviderEntryPointCreator - Could not find a suitable constructor for class androidx.lifecycle.ProcessLifecycleOwner
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 17 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 136 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.adobject.IAdObject, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.views.AdViewBase$AdViewCallback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.video.player.FlurryVideoOverlay$IFlurryVideoOverlayEvents, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class com.flurry.android.impl.ads.video.ads.FullScreenVideoAd
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.views.AdViewBase, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for androidx.fragment.app.FragmentTransition$Callback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.adobject.IAdObject, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.views.AdViewBase$AdViewCallback, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.video.player.FlurryVideoOverlay$IFlurryVideoOverlayEvents, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class com.flurry.android.impl.ads.video.ads.FullScreenVideoAd
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.flurry.android.impl.ads.views.AdViewBase, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ContentProviderEntryPointCreator - Could not find a suitable constructor for class androidx.lifecycle.ProcessLifecycleOwner
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 0 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <android.os.Build: java.lang.String SERIAL> -> _SOURCE_
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 8 sources, 488 sinks, and 83 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 15 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /jimmy/hdd/sr939/FinanceApps/com.yahoo.mobile.client.android.finance_2020-03-10.apk with 8 sources and 488 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.328082821 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 11650 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 2 sources and 1 sinks.
+[Service Thread] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Triggering memory warning at 20711 MB (20711 MB in tenured gen)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 8477048
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 8306972
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 59310152 forward and 66295098 backward edges solved, processing 0 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 20777 MB
+[Service Thread] WARN soot.jimple.infoflow.memory.FlowDroidMemoryWatcher - Running out of memory, solvers terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 679 MB
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] ERROR soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Could not wait for executor termination
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at heros.solver.CountLatch.awaitZero(CountLatch.java:79)
+	at heros.solver.CountingThreadPoolExecutor.awaitCompletion(CountingThreadPoolExecutor.java:86)
+	at soot.jimple.infoflow.solver.executors.InterruptableExecutor.awaitCompletion(InterruptableExecutor.java:82)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:629)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:239)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1180)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1424)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1359)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1306)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:333)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 682 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 1 seconds
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - No results found.
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 570 seconds. Maximum memory consumption: 614 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated

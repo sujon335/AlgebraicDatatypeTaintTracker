@@ -1,0 +1,581 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /jimmy/hdd/sr939/FinanceApps/com.bituniverse.portfolio_2020-03-27.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.dexpler.DexFileProvider - Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.082564308 seconds
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 76 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.VerifyCodeView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.PieChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.CollapsingToolbarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.ScrollViewEx is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.ScrollViewEx is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.BalanceTitleTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.BalanceTitleTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.PieChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.LineChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.PieChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.PieChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.BarChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.LineChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.flexbox.FlexboxLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.flexbox.FlexboxLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.flexbox.FlexboxLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class skin.support.widget.SkinCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class de.hdodenhof.circleimageview.CircleImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yalantis.ucrop.view.widget.HorizontalProgressWheelView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.SearchHistoryLayout is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.SearchHistoryLayout is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.SearchHistoryLayout is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.SearchHistoryLayout is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.lzyzsd.jsbridge.BridgeWebView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.VerifyCodeView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.PieChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.internal.BaselineLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.internal.NavigationMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.internal.NavigationMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.internal.CheckableImageButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.LineChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.CollapsingToolbarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.ScrollViewEx is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.UnderlineTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.UnderlineTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.ScrollViewEx is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.geetest.sdk.views.GT3GeetestView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.geetest.sdk.views.GT3View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.kaopiz.kprogresshud.BackgroundLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.LineChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.BalanceTitleTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.LinkedTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.BalanceTitleTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.PieChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.LineChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.PieChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.PieChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.BarChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.LineChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.flexbox.FlexboxLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.flexbox.FlexboxLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.flexbox.FlexboxLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class skin.support.widget.SkinCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class de.hdodenhof.circleimageview.CircleImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.imangazaliev.circlemenu.CircleMenu
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.imangazaliev.circlemenu.CircleMenuButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.imangazaliev.circlemenu.CircleMenuButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.imangazaliev.circlemenu.CircleMenuButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.tabs.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.wang.avi.AVLoadingIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.google.android.material.appbar.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.ui.widget.AutofitTextView is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yalantis.ucrop.view.UCropView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yalantis.ucrop.view.widget.AspectRatioTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yalantis.ucrop.view.UCropView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yalantis.ucrop.view.widget.HorizontalProgressWheelView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yalantis.ucrop.view.widget.HorizontalProgressWheelView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yalantis.ucrop.view.GestureCropImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.yalantis.ucrop.view.OverlayView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.bituniverse.portfolio.widget.VerifyCodeEditText is not derived from android.view.View
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 78 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.b.i, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.b.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.a.e, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.a.b, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.RequestManagerRetriever$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.d, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Could not find a suitable constructor for class com.bituniverse.portfolio.b
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.kc, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.ob, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.kg, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.jk, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.ob, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.hq, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.mh, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.b.i, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.b.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.a.e, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.a.b, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.RequestManagerRetriever$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.d, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.b.i, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.b.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.a.e, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.a.b, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.RequestManagerRetriever$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.d, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.zbar.detector.d, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 61 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 78 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class rx.a.a
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.kc, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.ob, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.kg, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class com.github.mikephil.charting.charts.CombinedChart
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.jk, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.ob, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.hq, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.mh, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.b.i, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.b.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.a.e, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.a.b, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.RequestManagerRetriever$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.d, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class com.bituniverse.portfolio.ui.asset.k
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.b.cq, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.appcompat.app.AlertDialog
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.b.i, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.b.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.a.e, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.a.b, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.RequestManagerRetriever$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.d, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class com.bituniverse.portfolio.zbar.detector.c
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.bituniverse.portfolio.zbar.detector.d, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class androidx.core.view.OneShotPreDrawListener
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 0 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <android.os.Build: java.lang.String SERIAL> -> _SOURCE_
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 8 sources, 488 sinks, and 269 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 30 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /jimmy/hdd/sr939/FinanceApps/com.bituniverse.portfolio_2020-03-27.apk with 8 sources and 488 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.778065198 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 28922 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 3 sources and 1 sinks.
+[FlowDroid Timeout Watcher] WARN soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - Timeout reached, stopping the solvers...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 5366815
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 5305950
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 27612060 forward and 48909432 backward edges solved, processing 0 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 16972 MB
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 707 MB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] ERROR soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Could not wait for executor termination
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at heros.solver.CountLatch.awaitZero(CountLatch.java:79)
+	at heros.solver.CountingThreadPoolExecutor.awaitCompletion(CountingThreadPoolExecutor.java:86)
+	at soot.jimple.infoflow.solver.executors.InterruptableExecutor.awaitCompletion(InterruptableExecutor.java:82)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:629)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:239)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1180)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1424)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1359)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1306)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:333)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 719 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 1 seconds
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - No results found.
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 1005 seconds. Maximum memory consumption: 629 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks

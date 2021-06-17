@@ -1,11 +1,11 @@
 import sys
 
-ff = open('Flowdroidresult_finance.txt','r')
-fw=open('Flowdroid_result_finance.csv','w+')
+ff = open('../Flowdroidresult_finance.txt','r')
+fw=open('../Flowdroid_result_finance.csv','w+')
 # fw.write('Appname'+','+'FirstOrderID'+','+'SecondOrderID'+','+'IDs'+','+'ThirdParty'+','+'Own')
 # fw.write('\n')
 
-fw.write('App'+','+'Leaks'+','+'IMEI'+','+'IMSI'+','+'AndroidID'+','+'SerialNo'+','+'MacAddress'+','+'ADvID'+','+'GUID')
+fw.write('App'+','+'IMEI'+','+'IMSI'+','+'AndroidID'+','+'SerialNo'+','+'MacAddress'+','+'ADvID'+','+'GUID')
 fw.write('\n')
 
 
@@ -35,7 +35,7 @@ for app in Apps:
 	guid=0
 	leak=0
 	appname=str(app)
-	appfile="/Users/sujon335/Desktop/Flowdroid/Financeresults/"+appname
+	appfile="../Financeresults/"+appname
 	try:
 		fi=open(appfile,'r')
 		for line in fi:
@@ -61,7 +61,7 @@ for app in Apps:
 				leak=int(arr[-2])
 
 		print("App: ",appname, leak)
-		fw.write(str(appname) + ',' + str(leak) + ',' + str(im) + ',' + str(ims) + ',' + str(aid)  + ',' +str(sid)  + ',' + str(mac)  + ',' + str(adid) + ',' + str(guid))
+		fw.write(str(appname) +  ',' + str(im) + ',' + str(ims) + ',' + str(aid)  + ',' +str(sid)  + ',' + str(mac)  + ',' + str(adid) + ',' + str(guid))
 		fw.write('\n')
 
 

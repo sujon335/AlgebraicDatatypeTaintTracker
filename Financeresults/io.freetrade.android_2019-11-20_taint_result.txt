@@ -1,0 +1,78 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /jimmy/hdd/sr939/FinanceApps/io.freetrade.android_2019-11-20.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.dexpler.DexFileProvider - Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.054082453 seconds
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 64 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Could not calculate callback methods
+java.lang.RuntimeException: Attempt to create VarNode of type byte
+	at soot.jimple.spark.pag.VarNode.<init>(VarNode.java:135)
+	at soot.jimple.spark.pag.LocalVarNode.<init>(LocalVarNode.java:52)
+	at soot.jimple.spark.pag.PAG.makeLocalVarNode(PAG.java:733)
+	at soot.jimple.spark.builder.MethodNodeFactory.caseLocal(MethodNodeFactory.java:338)
+	at soot.jimple.internal.JimpleLocal.apply(JimpleLocal.java:123)
+	at soot.jimple.spark.builder.MethodNodeFactory.caseCastExpr(MethodNodeFactory.java:315)
+	at soot.jimple.internal.AbstractCastExpr.apply(AbstractCastExpr.java:128)
+	at soot.jimple.spark.builder.MethodNodeFactory$1.caseAssignStmt(MethodNodeFactory.java:162)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:242)
+	at soot.jimple.spark.builder.MethodNodeFactory.handleStmt(MethodNodeFactory.java:150)
+	at soot.jimple.spark.pag.MethodPAG.buildNormal(MethodPAG.java:224)
+	at soot.jimple.spark.pag.MethodPAG.build(MethodPAG.java:186)
+	at soot.jimple.spark.solver.OnFlyCallGraph.processReachables(OnFlyCallGraph.java:93)
+	at soot.jimple.spark.solver.OnFlyCallGraph.build(OnFlyCallGraph.java:84)
+	at soot.jimple.spark.solver.PropWorklist.handleVarNode(PropWorklist.java:159)
+	at soot.jimple.spark.solver.PropWorklist.propagate(PropWorklist.java:81)
+	at soot.jimple.spark.SparkTransformer.propagatePAG(SparkTransformer.java:238)
+	at soot.jimple.spark.SparkTransformer.internalTransform(SparkTransformer.java:155)
+	at soot.SceneTransformer.transform(SceneTransformer.java:36)
+	at soot.Transform.apply(Transform.java:102)
+	at soot.RadioScenePack.internalApply(RadioScenePack.java:68)
+	at soot.jimple.toolkits.callgraph.CallGraphPack.internalApply(CallGraphPack.java:58)
+	at soot.Pack.apply(Pack.java:117)
+	at soot.jimple.infoflow.android.SetupApplication.constructCallgraphInternal(SetupApplication.java:564)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbackMethods(SetupApplication.java:682)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbacks(SetupApplication.java:476)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbacks(SetupApplication.java:446)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1393)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1359)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1306)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:333)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+The data flow analysis has failed. Error message: Attempt to create VarNode of type byte
+java.lang.RuntimeException: Attempt to create VarNode of type byte
+	at soot.jimple.spark.pag.VarNode.<init>(VarNode.java:135)
+	at soot.jimple.spark.pag.LocalVarNode.<init>(LocalVarNode.java:52)
+	at soot.jimple.spark.pag.PAG.makeLocalVarNode(PAG.java:733)
+	at soot.jimple.spark.builder.MethodNodeFactory.caseLocal(MethodNodeFactory.java:338)
+	at soot.jimple.internal.JimpleLocal.apply(JimpleLocal.java:123)
+	at soot.jimple.spark.builder.MethodNodeFactory.caseCastExpr(MethodNodeFactory.java:315)
+	at soot.jimple.internal.AbstractCastExpr.apply(AbstractCastExpr.java:128)
+	at soot.jimple.spark.builder.MethodNodeFactory$1.caseAssignStmt(MethodNodeFactory.java:162)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:242)
+	at soot.jimple.spark.builder.MethodNodeFactory.handleStmt(MethodNodeFactory.java:150)
+	at soot.jimple.spark.pag.MethodPAG.buildNormal(MethodPAG.java:224)
+	at soot.jimple.spark.pag.MethodPAG.build(MethodPAG.java:186)
+	at soot.jimple.spark.solver.OnFlyCallGraph.processReachables(OnFlyCallGraph.java:93)
+	at soot.jimple.spark.solver.OnFlyCallGraph.build(OnFlyCallGraph.java:84)
+	at soot.jimple.spark.solver.PropWorklist.handleVarNode(PropWorklist.java:159)
+	at soot.jimple.spark.solver.PropWorklist.propagate(PropWorklist.java:81)
+	at soot.jimple.spark.SparkTransformer.propagatePAG(SparkTransformer.java:238)
+	at soot.jimple.spark.SparkTransformer.internalTransform(SparkTransformer.java:155)
+	at soot.SceneTransformer.transform(SceneTransformer.java:36)
+	at soot.Transform.apply(Transform.java:102)
+	at soot.RadioScenePack.internalApply(RadioScenePack.java:68)
+	at soot.jimple.toolkits.callgraph.CallGraphPack.internalApply(CallGraphPack.java:58)
+	at soot.Pack.apply(Pack.java:117)
+	at soot.jimple.infoflow.android.SetupApplication.constructCallgraphInternal(SetupApplication.java:564)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbackMethods(SetupApplication.java:682)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbacks(SetupApplication.java:476)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbacks(SetupApplication.java:446)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1393)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1359)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1306)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:333)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated

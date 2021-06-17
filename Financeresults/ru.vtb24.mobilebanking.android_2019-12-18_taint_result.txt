@@ -1,0 +1,633 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /jimmy/hdd/sr939/FinanceApps/ru.vtb24.mobilebanking.android_2019-12-18.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.dexpler.DexFileProvider - Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.067575255 seconds
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 169 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.pushserver.android.PushServerIntentService, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.pushserver.android.PushServerIntentService
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.EditTextWithSuffix
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.AutoResizeTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.AutoResizeTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.AutoResizeTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.WrapContentViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.payments.PaymentsCategoryView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.payments.PaymentsCategoryView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.payments.PaymentsCategoryView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.payments.PaymentsCategoryView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CustomSearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.InfiniteViewPager.CrashSafeViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.widget.PaymentsCalendarView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.ui.components.ScrollingPagerIndicator.ScrollingPagerIndicator
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.ActiveButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.ActiveButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.NonKeyboardEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.inputmethodservice.KeyboardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.InfiniteViewPager.CrashSafeViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.InfiniteViewPager.CrashSafeViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.ui.components.CurrencySelectorView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.activity.deposits.EditTextWithCurrency
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.ui.components.CapitalizationSwitchView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.ui.components.ScrollingPagerIndicator.ScrollingPagerIndicator
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.PassCodeKeyboardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.AdvantagesListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.InvestmentBondPaymentCalendarListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.InvestmentBiddingInfoView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.AdvantagesListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.DoughnutChartView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.InvestmentBiddingInfoView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.InvestmentBiddingInfoView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.AdvantagesListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.StocksAndBondsListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.MyInvestmentsAppView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.InvestmentBiddingInfoView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.DotIndicator
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.DotIndicator
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.StocksAndBondsListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.AdvantagesListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.MyInvestmentsAppView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.InvestmentBiddingInfoView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CustomSearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CustomSearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.InfiniteViewPager.CrashSafeViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.aurelhubert.ahbottomnavigation.AHBottomNavigation
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.playMarketView.PlayMarketView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.InfiniteViewPager.CrashSafeViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CustomSearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.ProductPaymentsCalendarView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CustomSearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CustomSearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.ShowcaseViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CustomSearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.InfiniteViewPager.CrashSafeViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.screens.virtualcardrequisites.VirtualCardRequisitesFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.screens.virtualcardrequisites.VirtualCardRequisitesFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.EditTextWithSuffix
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.AnimatableProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CustomSearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.InfiniteViewPager.CrashSafeViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.calculator.field.CalcInsuranceBlock
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.EditTextWithSuffix
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.calculator.field.CalcStickingField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.base.custom.widget.MaskedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.base.custom.widget.MaskedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.base.custom.widget.MaskedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.ui.components.CurrencySelectorView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.ui.components.CapitalizationSwitchView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.AutoResizeTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.AutoResizeTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.AutoResizeTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.WrapContentViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.ui.components.CurrencySelectorView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.AutoResizeTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.ui.components.CapitalizationSwitchView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.TouchImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.FitTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.view.ValueDependentImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.field.TextViewROField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.field.TextViewROField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.view.ValueDependentImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.field.InnerTextField_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.view.ValueDependentImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.field.InnerTextField_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.field.InnerTextField_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.FitTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.base.custom.widget.MaskedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CardPinPassCodeKeyboardView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.utils.ProductViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.widget.rating.RatingView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.PassCodeKeyboardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.InfiniteViewPager.CrashSafeViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.DotIndicator
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.BiometryPassCodeKeyboardView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.payments.PaymentsCategoryView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.payments.PaymentsCategoryView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.payments.PaymentsCategoryView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.payments.PaymentsCategoryView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.InfiniteViewPager.CrashSafeViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.BlinkingImage
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.TouchConsumingLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CustomSearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.InfiniteViewPager.CrashSafeViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.DotIndicator
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.InfiniteViewPager.CrashSafeViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.playMarketView.PlayMarketView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.utils.ExpandableTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.ClearFocusEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.ClearFocusEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.calculator.field.refin.LoanRepaidField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.billplacement.views.SelectionListButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.billplacement.views.EditField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.billplacement.views.EditField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.billplacement.views.EditField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.billplacement.views.EditField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.billplacement.views.EditField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.billplacement.views.EditField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.view.StickingScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.field.futures.amountcurrency.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.NonScrollableListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.field.futures.date.DateEditTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.field.EditTextWithSuffix
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.calculator.field.StageCollapsibleLabelField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.calculator.field.TitlesLabelField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.PassCodeKeyboardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.EditTextWithSuffix
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.utils.ProductViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.views.DualButtonView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.base.custom.widget.MaskedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.utils.ProductViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.ProductStatusBlock_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.wrappers.DynamicHeightViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.utils.views.BottomInsetRelative
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.enginecore.StageFragment_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.enginecore.StageFragment_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.utils.ZeroItemFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.CollapsibleField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.EditTextWithSuffix
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.products.productlist.ProductWrapperItemView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.OpCatItem_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.utils.ZeroItemConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.utils.ExactImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.products.productlist.ProductWrapperItemView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.MultiSelectionItem_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.EditTextWithSuffix
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.SelectionItem_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.products.productlist.ProductWrapperMultiSelectionItemView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.products.productlist.ProductWrapperItemView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.SelectionItem_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.products.productlist.ProductWrapperItemView_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.utils.ZeroItemConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.views.GoalWrapper_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.views.GhostWrapper_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.utils.ZeroItemConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.utils.ExactImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.views.GoalWrapper_
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.TableField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.EditTextWithSuffix
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.base.custom.widget.MaskedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.EditTextWithSuffix
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.payments.ExplorerImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.commons.field.SignedGroup
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.engine.engineimpl.calculator.field.refin.RefinSignedGroup
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.operation.view.StickingScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CustomSearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.CustomSearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.AutoResizeTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.AutoResizeTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.investment.AdvantagesListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.playMarketView.PlayMarketView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.MaterialProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.SnappingRecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.SnappingRecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb.mobilebanking.main.landing.views.SnappingRecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class io.supercharge.shimmerlayout.ShimmerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class x is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class ru.vtb24.mobilebanking.android.gui.views.HtmlTextView
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 169 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.pushserver.android.PushServerIntentService, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.pushserver.android.PushServerIntentService
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Could not calculate callback methods
+java.lang.RuntimeException: Attempt to create VarNode of type byte
+	at soot.jimple.spark.pag.VarNode.<init>(VarNode.java:135)
+	at soot.jimple.spark.pag.LocalVarNode.<init>(LocalVarNode.java:52)
+	at soot.jimple.spark.pag.PAG.makeLocalVarNode(PAG.java:733)
+	at soot.jimple.spark.builder.MethodNodeFactory.caseLocal(MethodNodeFactory.java:338)
+	at soot.jimple.internal.JimpleLocal.apply(JimpleLocal.java:123)
+	at soot.jimple.spark.builder.MethodNodeFactory.caseCastExpr(MethodNodeFactory.java:315)
+	at soot.jimple.internal.AbstractCastExpr.apply(AbstractCastExpr.java:128)
+	at soot.jimple.spark.builder.MethodNodeFactory$1.caseAssignStmt(MethodNodeFactory.java:162)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:242)
+	at soot.jimple.spark.builder.MethodNodeFactory.handleStmt(MethodNodeFactory.java:150)
+	at soot.jimple.spark.pag.MethodPAG.buildNormal(MethodPAG.java:224)
+	at soot.jimple.spark.pag.MethodPAG.build(MethodPAG.java:186)
+	at soot.jimple.spark.solver.OnFlyCallGraph.processReachables(OnFlyCallGraph.java:93)
+	at soot.jimple.spark.solver.OnFlyCallGraph.build(OnFlyCallGraph.java:84)
+	at soot.jimple.spark.solver.PropWorklist.handleVarNode(PropWorklist.java:159)
+	at soot.jimple.spark.solver.PropWorklist.propagate(PropWorklist.java:81)
+	at soot.jimple.spark.SparkTransformer.propagatePAG(SparkTransformer.java:238)
+	at soot.jimple.spark.SparkTransformer.internalTransform(SparkTransformer.java:155)
+	at soot.SceneTransformer.transform(SceneTransformer.java:36)
+	at soot.Transform.apply(Transform.java:102)
+	at soot.RadioScenePack.internalApply(RadioScenePack.java:68)
+	at soot.jimple.toolkits.callgraph.CallGraphPack.internalApply(CallGraphPack.java:58)
+	at soot.Pack.apply(Pack.java:117)
+	at soot.jimple.infoflow.android.SetupApplication.constructCallgraphInternal(SetupApplication.java:564)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbackMethods(SetupApplication.java:682)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbacks(SetupApplication.java:476)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbacks(SetupApplication.java:446)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1393)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1359)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1306)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:333)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+The data flow analysis has failed. Error message: Attempt to create VarNode of type byte
+java.lang.RuntimeException: Attempt to create VarNode of type byte
+	at soot.jimple.spark.pag.VarNode.<init>(VarNode.java:135)
+	at soot.jimple.spark.pag.LocalVarNode.<init>(LocalVarNode.java:52)
+	at soot.jimple.spark.pag.PAG.makeLocalVarNode(PAG.java:733)
+	at soot.jimple.spark.builder.MethodNodeFactory.caseLocal(MethodNodeFactory.java:338)
+	at soot.jimple.internal.JimpleLocal.apply(JimpleLocal.java:123)
+	at soot.jimple.spark.builder.MethodNodeFactory.caseCastExpr(MethodNodeFactory.java:315)
+	at soot.jimple.internal.AbstractCastExpr.apply(AbstractCastExpr.java:128)
+	at soot.jimple.spark.builder.MethodNodeFactory$1.caseAssignStmt(MethodNodeFactory.java:162)
+	at soot.jimple.internal.JAssignStmt.apply(JAssignStmt.java:242)
+	at soot.jimple.spark.builder.MethodNodeFactory.handleStmt(MethodNodeFactory.java:150)
+	at soot.jimple.spark.pag.MethodPAG.buildNormal(MethodPAG.java:224)
+	at soot.jimple.spark.pag.MethodPAG.build(MethodPAG.java:186)
+	at soot.jimple.spark.solver.OnFlyCallGraph.processReachables(OnFlyCallGraph.java:93)
+	at soot.jimple.spark.solver.OnFlyCallGraph.build(OnFlyCallGraph.java:84)
+	at soot.jimple.spark.solver.PropWorklist.handleVarNode(PropWorklist.java:159)
+	at soot.jimple.spark.solver.PropWorklist.propagate(PropWorklist.java:81)
+	at soot.jimple.spark.SparkTransformer.propagatePAG(SparkTransformer.java:238)
+	at soot.jimple.spark.SparkTransformer.internalTransform(SparkTransformer.java:155)
+	at soot.SceneTransformer.transform(SceneTransformer.java:36)
+	at soot.Transform.apply(Transform.java:102)
+	at soot.RadioScenePack.internalApply(RadioScenePack.java:68)
+	at soot.jimple.toolkits.callgraph.CallGraphPack.internalApply(CallGraphPack.java:58)
+	at soot.Pack.apply(Pack.java:117)
+	at soot.jimple.infoflow.android.SetupApplication.constructCallgraphInternal(SetupApplication.java:564)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbackMethods(SetupApplication.java:682)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbacks(SetupApplication.java:476)
+	at soot.jimple.infoflow.android.SetupApplication.calculateCallbacks(SetupApplication.java:446)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1393)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1359)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1306)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:333)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated

@@ -1,0 +1,439 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /jimmy/hdd/sr939/FinanceApps/com.transferwise.android_2019-09-08.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.dexpler.DexFileProvider - Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.045604011 seconds
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 101 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.DownwardClipImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.verticalviewpager.VerticalViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.balance.details.ClippedCornerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.balance.details.HideKeyboardRecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.design.screens.LoadingErrorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.DropDownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.splash.video.VideoView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintAutocompleteWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintAutocompleteWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Invalid target node for include tag in layout XML, was %s
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Invalid target node for include tag in layout XML, was %s
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.DownwardClipImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.fee.CalculationFeeDividerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.SeparatorTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class requestFocus
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.RecipientSelectionView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.RecipientSelectionView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintAutocompleteTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.PhoneNumberField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.design.screens.LoadingErrorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.card.activate.EnterPinView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.card.activate.EnterPinView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.card.layouts.CardAnimationLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.design.screens.LoadingErrorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.BusinessCategoryView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.card.layouts.CardAnimationLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.design.screens.LoadingErrorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.design.screens.LoadingErrorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.card.activate.EnterPinView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.card.activate.EnterPinView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.card.layouts.CardAnimationLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.design.screens.LoadingErrorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.authentication.intro.LottieViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Invalid target node for include tag in layout XML, was %s
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.transferwise.android.design.widget.MultiLineCollapsingToolbarLayout is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.address.AddressView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.card.layouts.CardAnimationLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.profile.personal.PersonalProfileView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.settings.AnimateAfterDrawLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.settings.AnimateAfterDrawLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.design.screens.LoadingErrorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.design.screens.LoadingErrorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.activities.BalanceCardsLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.balance.details.ClippedCornerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.balance.details.HideKeyboardRecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.design.screens.LoadingErrorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.balance.details.ClippedCornerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.DropDownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.invite.ui.widget.ReferralProgress
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Invalid target node for include tag in layout XML, was %s
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.design.screens.LoadingErrorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.balance.details.RoundedCardLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.balance.details.RoundedCardLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.balance.details.RoundedCardLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.fee.CalculationFeeDividerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.transferwise.android.design.widget.MultiLineCollapsingToolbarLayout is not derived from android.view.View
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.sequencelayout.SequenceLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.local.LocalCalculatorTargetInputView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.sequencelayout.SequenceLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.transferflow.ui.widget.calculation.CalculationBreakdownLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.payin.card.threeds.widget.ThreeDSWebView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.DropDownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.RecipientSuggestions
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.RecipientSelectionView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.PhoneNumberField
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.DropDownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.UserVerificationPhotoSelectionView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.UserVerificationPhotoSelectionView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.UserVerificationPhotoSelectionView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.UserVerificationPhotoSelectionView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.DropDownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.DropDownView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class requestFocus
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.address.AddressView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.RecipientSuggestions
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.FloatingHintEditTextWithHelperLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.design.screens.LoadingErrorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.widget.UserVerificationImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.transferwise.android.ui.splash.video.SubtitleView
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 101 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class b.h.i.r
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class b.h.i.r
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class b.h.i.r
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class b.h.i.r
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 18 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <android.os.Build: java.lang.String SERIAL> -> _SOURCE_
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 8 sources, 488 sinks, and 67 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 12 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /jimmy/hdd/sr939/FinanceApps/com.transferwise.android_2019-09-08.apk with 8 sources and 488 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.400828833 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 12144 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 5 sources and 74 sinks.
+[FlowDroid Timeout Watcher] WARN soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - Timeout reached, stopping the solvers...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 6568782
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 6455592
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 37029045 forward and 72824807 backward edges solved, processing 71 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 17744 MB
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 745 MB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 1 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] ERROR soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Could not wait for executor termination
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at heros.solver.CountLatch.awaitZero(CountLatch.java:79)
+	at heros.solver.CountingThreadPoolExecutor.awaitCompletion(CountingThreadPoolExecutor.java:86)
+	at soot.jimple.infoflow.solver.executors.InterruptableExecutor.awaitCompletion(InterruptableExecutor.java:82)
+	at soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder.computeTaintPaths(BatchPathBuilder.java:65)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:607)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:239)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1180)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1424)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1359)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1306)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:333)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 2 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 3 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 4 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 5 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 6 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 7 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 8 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 9 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 10 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 11 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 12 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 13 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 14 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 15 with 1 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 1 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 1037 MB
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 4 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>("_implicitlyLogged", "1") in method <com.facebook.a.f: org.json.JSONObject a(java.lang.String,java.lang.String,java.lang.Double,android.os.Bundle,boolean,boolean,java.util.UUID)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <androidx.fragment.app.h: void <init>()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>("extinfo", $r7) in method <com.facebook.internal.S: void a(org.json.JSONObject,android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.facebook.a.s: java.lang.String a(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r6.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)>("code", $i2) in method <com.facebook.J: java.util.List a(java.net.HttpURLConnection,java.util.List,java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.facebook.a.b.h: java.lang.String m()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r1, $r2) in method <com.facebook.a.f: org.json.JSONObject a(java.lang.String,java.lang.String,java.lang.Double,android.os.Bundle,boolean,boolean,java.util.UUID)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <androidx.fragment.app.h: void <init>()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r3 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.facebook.a.b.u: void <init>(java.lang.Long,java.lang.Long)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)>("_valueToSum", $d0) in method <com.facebook.a.f: org.json.JSONObject a(java.lang.String,java.lang.String,java.lang.Double,android.os.Bundle,boolean,boolean,java.util.UUID)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <androidx.fragment.app.h: void <init>()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>("_session_id", $r5) in method <com.facebook.a.f: org.json.JSONObject a(java.lang.String,java.lang.String,java.lang.Double,android.os.Bundle,boolean,boolean,java.util.UUID)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r3 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.facebook.a.b.u: void <init>(java.lang.Long,java.lang.Long)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>("_ui", $r1) in method <com.facebook.a.f: org.json.JSONObject a(java.lang.String,java.lang.String,java.lang.Double,android.os.Bundle,boolean,boolean,java.util.UUID)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <androidx.fragment.app.h: void <init>()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 1009 seconds. Maximum memory consumption: 650 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 7 leaks

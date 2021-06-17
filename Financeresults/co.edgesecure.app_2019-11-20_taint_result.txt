@@ -1,0 +1,139 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /jimmy/hdd/sr939/FinanceApps/co.edgesecure.app_2019-11-20.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.dexpler.DexFileProvider - Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.025294889 seconds
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 15 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.transistorsoft.tsbackgroundfetch.BootReceiver
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.transistorsoft.tsbackgroundfetch.BootReceiver
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.transistorsoft.tsbackgroundfetch.FetchJobService
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.transistorsoft.tsbackgroundfetch.FetchJobService
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.learnium.RNDeviceInfo.RNDeviceReceiver
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.learnium.RNDeviceInfo.RNDeviceReceiver
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.transistorsoft.rnbackgroundfetch.HeadlessJobService
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.transistorsoft.rnbackgroundfetch.HeadlessJobService
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.transistorsoft.rnbackgroundfetch.HeadlessBroadcastReceiver
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.transistorsoft.rnbackgroundfetch.HeadlessBroadcastReceiver
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.imagepicker.FileProvider
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.imagepicker.FileProvider
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.reactnativecommunity.webview.RNCWebViewFileProvider
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.reactnativecommunity.webview.RNCWebViewFileProvider
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatCheckBox
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatRadioButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.DialogTitle
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ActionMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AlertDialogLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.DialogTitle
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ExpandedMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ContentFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ViewStubCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ViewStubCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatCheckBox
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatRadioButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 15 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.facebook.react.bridge.JavaScriptExecutorFactory, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.facebook.react.bridge.JSBundleLoader, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class com.facebook.react.common.LifecycleState
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.facebook.react.bridge.NativeModuleCallExceptionHandler, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.facebook.react.devsupport.RedBoxHandler, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.facebook.react.devsupport.interfaces.DevBundleDownloadListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.facebook.react.bridge.JSIModulePackage, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 6 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <android.os.Build: java.lang.String SERIAL> -> _SOURCE_
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 8 sources, 488 sinks, and 15 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 4 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /jimmy/hdd/sr939/FinanceApps/co.edgesecure.app_2019-11-20.apk with 8 sources and 488 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.159058084 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 3985 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 3 sources and 24 sinks.
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[Service Thread] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Triggering memory warning at 20592 MB (20592 MB in tenured gen)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 5653177
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 5644630
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 17286334 forward and 68082526 backward edges solved, processing 0 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 20667 MB
+[Service Thread] WARN soot.jimple.infoflow.memory.FlowDroidMemoryWatcher - Running out of memory, solvers terminated
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 571 MB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] ERROR soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Could not wait for executor termination
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at heros.solver.CountLatch.awaitZero(CountLatch.java:79)
+	at heros.solver.CountingThreadPoolExecutor.awaitCompletion(CountingThreadPoolExecutor.java:86)
+	at soot.jimple.infoflow.solver.executors.InterruptableExecutor.awaitCompletion(InterruptableExecutor.java:82)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:629)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:239)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1180)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1424)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1359)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1306)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:333)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 573 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 1 seconds
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - No results found.
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 400 seconds. Maximum memory consumption: 496 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated

@@ -1,0 +1,793 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /jimmy/hdd/sr939/FinanceApps/fr.creditagricole.androidapp_2018-04-23.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.dexpler.DexFileProvider - Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.077858086 seconds
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 120 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.ExtendedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.JointOperationListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.SubOperationFormView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accountscore.views.AccountOperationSpecifiedMarginListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.CashOrderWithdrawalFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.CashOrderWithdrawalFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.CashOrderWithdrawalFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.CashOrderWithdrawalFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.QuantityView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.ExtendedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.projects.views.ProjectOperationListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.BreadcrumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.TripleChoiceView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.agency.views.OpeningHoursView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accountscore.views.AccountOperationSpecifiedMarginListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.NumberPageIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.agency.views.OpeningHoursView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.DialogTitle
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.FloatingActionButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RadioChoiceViewGroup
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.projects.views.ProjectSimulatorSeekBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.BreadcrumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.AccountScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.TripleChoiceView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.StepperView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ActionMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.DialogTitle
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ExpandedMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ContentFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ViewStubCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ViewStubCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.MyPagerTitleStrip
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.DrawerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.FloatingActionButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.CreditCardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accountscore.views.OperationListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accountscore.views.OperationListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.JointOperationListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.TripleChoiceView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.AccountOperationsListViewWrapper
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.agency.views.OpeningHoursView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.BamView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.BudgetSeekBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.budgets.views.SpendingHabitsGraphView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accountscore.views.AccountOperationSpecifiedMarginListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.appointments.views.AppointmentDayDetailsView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.appointments.views.scrollview.AdvisorScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.CashOrderWithdrawalFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.CashOrderWithdrawalFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.scrollview.FocuslessNestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.QuantityView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.WrapViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.LoopViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.scrollview.TextScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.NumberPageIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.NumberPageIndicatorView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.ExtendedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.ExtendedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.radaee.util.PDFThumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.cashorder.AccountsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.expensereport.OperationsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.fragments.expensereport.OperationsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accountscore.views.OperationsActionsHeaderView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.projects.views.ProjectOperationListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RadioChoiceViewGroup
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.projects.views.ProjectSimulatorSeekBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.BreadcrumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.BreadcrumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.BreadcrumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.BreadcrumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.dynamiclistview.AccountsDynamicListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.BreadcrumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.dynamiclistview.AccountsDynamicListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.BreadcrumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.AccountScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.TripleChoiceView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.BreadcrumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.dynamiclistview.AccountsDynamicListView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.TripleChoiceView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.ActionOvalImageAndTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.budgets.views.BudgetChartView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditTextHint
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.ActionOvalImageAndTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.ActionOvalImageAndTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.CroppedTopAlignedImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.ExtendedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.ExtendedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditTextHint
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditTextHint
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.LinkOperationToExpenseReportView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.ExtendedEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.transfer.ImpulsionTransferAmountView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.transfer.ImpulsionTransferAmountView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.transfer.ImpulsionTransferAmountView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.timeline.views.emessage.VideoEnabledWebView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.PhoneNumberView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditTextHint
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.settings.SettingsImpulsionFavoriteAmountsView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.settings.SettingsImpulsionFavoriteAmountsView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.androidapp.views.settings.SettingsImpulsionFavoriteAmountsView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RadioChoiceViewGroup
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accountscore.views.OperationItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.OperationItemViewWithShadow
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accounts.views.StepperView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.BudgetSeekBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class requestFocus
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.FloatingActionButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.GridLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.ActionOvalImageAndTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AnimatedProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.StepperView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.modedepose.views.ModeDeposeOldBreadcrumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accountscore.views.SimplifiedOperationView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.accountscore.views.SimplifiedOperationView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.OvalImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.radaee.util.PDFThumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.radaee.util.PDFThumbView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.BudgetSeekBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.RobotoSwitch
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.SupportImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class fr.creditagricole.module.core.views.AmountEditText
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class x
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 120 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for b.a.a.a.a$b, because it is abstract and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 119 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 120 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 0 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <android.os.Build: java.lang.String SERIAL> -> _SOURCE_
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 8 sources, 488 sinks, and 420 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 14 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /jimmy/hdd/sr939/FinanceApps/fr.creditagricole.androidapp_2018-04-23.apk with 8 sources and 488 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.540194676 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 21690 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 5 sources and 24 sinks.
+[Service Thread] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Triggering memory warning at 21369 MB (21369 MB in tenured gen)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 12240225
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 12057960
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 49484117 forward and 72355084 backward edges solved, processing 93 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 21491 MB
+[Service Thread] WARN soot.jimple.infoflow.memory.FlowDroidMemoryWatcher - Running out of memory, solvers terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 709 MB
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 1 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] ERROR soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Could not wait for executor termination
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at heros.solver.CountLatch.awaitZero(CountLatch.java:79)
+	at heros.solver.CountingThreadPoolExecutor.awaitCompletion(CountingThreadPoolExecutor.java:86)
+	at soot.jimple.infoflow.solver.executors.InterruptableExecutor.awaitCompletion(InterruptableExecutor.java:82)
+	at soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder.computeTaintPaths(BatchPathBuilder.java:65)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:607)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:239)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1180)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1424)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1359)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1306)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:333)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 2 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 3 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 4 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 5 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 6 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 7 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 8 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 9 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 10 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 11 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 12 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 13 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 14 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 15 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 16 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 17 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 18 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 19 with 3 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 3 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 2721 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 20 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r7, $r5) in method <fr.creditagricole.module.eerd.c.b: void a(java.util.Map)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.dimelo.dimelosdk.main.d: java.lang.String e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>("userName", $r2) in method <com.dimelo.dimelosdk.main.d: org.json.JSONObject p()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.dimelo.dimelosdk.main.d: java.lang.String e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>("deviceToken", $r3) in method <com.dimelo.dimelosdk.main.f: void b()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.dimelo.dimelosdk.main.d: java.lang.String e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>("apiKey", $r2) in method <com.dimelo.dimelosdk.main.d: org.json.JSONObject p()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.dimelo.dimelosdk.main.d: java.lang.String e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>("appVersion", $r3) in method <com.dimelo.dimelosdk.main.f: void b()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.dimelo.dimelosdk.main.d: java.lang.String e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)>($r7, $r5) in method <fr.creditagricole.module.eerd.c.b: void b(java.util.Map)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = staticinvoke <java.util.UUID: java.util.UUID randomUUID()>() in method <com.dimelo.dimelosdk.main.d: java.lang.String e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 657 seconds. Maximum memory consumption: 588 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 6 leaks

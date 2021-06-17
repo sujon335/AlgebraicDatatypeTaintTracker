@@ -1,0 +1,370 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /jimmy/hdd/sr939/FinanceApps/com.tabtrader.android_2019-12-26.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.dexpler.DexFileProvider - Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.069221309 seconds
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 44 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.InstrumentTabActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.InstrumentTabActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.preferences.PreferencesActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.preferences.PreferencesActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.ui.position.ClosePositionActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.ui.position.ClosePositionActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.ui.search.SearchActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.ui.search.SearchActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.ui.news.NewsBookmarksActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.ui.news.NewsBookmarksActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.activity.AlertEditActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.activity.AlertEditActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.ui.settings.pin.PinConfirmationActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.ui.settings.pin.PinConfirmationActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.ui.settings.pin.LockSettingsActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.ui.settings.pin.LockSettingsActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.ui.settings.clock.ClockSettingsActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.ui.settings.clock.ClockSettingsActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.WebViewActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.WebViewActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.activity.IndicatorsActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.activity.IndicatorsActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.widget.WidgetProvider
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.widget.WidgetProvider
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.push.MyFirebaseMessagingService
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.push.MyFirebaseMessagingService
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.advert.AdsRemovalActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.advert.AdsRemovalActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.ui.applock.AppLockActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.ui.applock.AppLockActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.gui.OrderConstructorActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.gui.OrderConstructorActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.activity.MainNavActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.activity.MainNavActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.activity.AccessActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.activity.AccessActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.push.FcmInstanceIdService
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.push.FcmInstanceIdService
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.ui.connect.ConnectActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.ui.connect.ConnectActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.ui.settings.orderbook.OrderbookSettingsActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.ui.settings.orderbook.OrderbookSettingsActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.gui.AddAccountActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.gui.AddAccountActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.ui.settings.pin.PinSetupActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.ui.settings.pin.PinSetupActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.ui.orderbook.OrderbookActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.ui.orderbook.OrderbookActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.widget.WidgetConfigureActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.widget.WidgetConfigureActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.activity.WealthActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.activity.WealthActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.widget.WidgetProvider$FirebaseJobService
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.widget.WidgetProvider$FirebaseJobService
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.gui.GraphActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.gui.GraphActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Could not find a suitable constructor for class com.tabtrader.android.activity.ScanActivity
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Constructor cannot be generated for com.tabtrader.android.activity.ScanActivity
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.graphview.GraphView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.internal.widget.PreferenceImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.internal.widget.PreferenceImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.DrawerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.NavigationView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.SwitchCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.internal.widget.PreferenceImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.internal.widget.PreferenceImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.DialogTitle
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ActionMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ButtonBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AlertDialogLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.DialogTitle
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ExpandedMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.view.menu.ListMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ContentFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ViewStubCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.FitWindowsFrameLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ViewStubCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarOverlayLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContainer
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.ActionBarContextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.ui.settings.clock.ClockSettingsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.ui.settings.clock.ClockSettingsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.DrawerLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.NavigationView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.CircleImageButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Group
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.ui.orderbook.OrderbookFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.ui.orderbook.OrderbookFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.ui.settings.orderbook.OrderbookSettingsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.ui.settings.orderbook.OrderbookSettingsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.ui.view.BottomFadeScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.ui.settings.pin.LockSettingsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.ui.settings.pin.LockSettingsFragment
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.SwitchCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Barrier
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Group
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Group
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Barrier
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Barrier
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Barrier
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Barrier
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Group
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Barrier
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.internal.BaselineLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.internal.NavigationMenuItemView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.internal.NavigationMenuView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CheckableImageButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TextInputLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.FloatingActionButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.SearchView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.internal.widget.PreferenceImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Group
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Group
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Group
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Group
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.FloatingActionButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.SwipeRefreshLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.FloatingActionButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.SwipeRefreshLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.NestedScrollView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.SwitchCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.button.MaterialButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.ContentLoadingProgressBar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.graphview.GraphView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.SwitchCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.ui.orderbook.OrderbookLevelBgView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Barrier
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Barrier
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Barrier
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.TabLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.view.ViewPager
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.Barrier
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v4.widget.SwipeRefreshLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.FloatingActionButton
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.graphview.marker.DrawPopup
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.graphview.TimeframePopup
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.internal.widget.PreferenceImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.internal.widget.PreferenceImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.preference.UnPressableLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.preference.UnPressableLinearLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.SwitchCompat
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.AppBarLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.Toolbar
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatCheckBox
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.constraint.ConstraintLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.CardView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class com.tabtrader.android.gui.imagecache.RecyclingImageView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.AppCompatTextView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.CoordinatorLayout
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.v7.widget.RecyclerView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.support.design.widget.FloatingActionButton
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 44 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 15 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <android.os.Build: java.lang.String SERIAL> -> _SOURCE_
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 8 sources, 488 sinks, and 53 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 8 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /jimmy/hdd/sr939/FinanceApps/com.tabtrader.android_2019-12-26.apk with 8 sources and 488 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.257185378 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 9166 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] ERROR soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - No sinks found, aborting analysis
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - No results found.
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 0 seconds. Maximum memory consumption: 460 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
